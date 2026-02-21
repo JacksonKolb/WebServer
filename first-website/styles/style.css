@@ -1,0 +1,57 @@
+
+
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+a {
+    color: #e3dc09;
+}
+
+html {
+  background-color: #e3dc09;
+  color: #e3dc09;
+}
+
+body {
+  width: auto;
+  margin: 100 10;
+  background-color: #671585;
+  padding-top: 0;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #e3dc09;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.done {
+  color: darkseagreen;
+  text-decoration: line-through solid black 2px;
+}
